@@ -1,5 +1,5 @@
 ﻿using System;
-using Twino.Client.TMQ.Bus;
+using Twino.MQ.Client.Bus;
 
 namespace QueryCommandSample.CommandExecuter
 {
@@ -7,7 +7,7 @@ namespace QueryCommandSample.CommandExecuter
 	{
 		public static ITwinoRouteBus RouteBus;
 
-		static void Main(string[] args)
+		private static void Main(string[] args)
 		{
 			Console.WriteLine("Hello World!");
 		}

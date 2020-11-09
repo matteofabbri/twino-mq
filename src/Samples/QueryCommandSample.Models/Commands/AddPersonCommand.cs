@@ -1,5 +1,4 @@
-using QueryCommandSample.Domain;
-using Twino.Client.TMQ.Annotations;
+using Twino.MQ.Client.Annotations;
 
 namespace QueryCommandSample.Models.Commands
 {

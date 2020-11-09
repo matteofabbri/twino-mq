@@ -1,10 +1,7 @@
-using Twino.Client.TMQ.Annotations;
+using Twino.MQ.Client.Annotations;
 
 namespace QueryCommandSample.QueryExecuter
 {
 	[RouterName("query-executer-router")]
-	public class FindPersonById
-	{
-		
-	}
+	public class FindPersonById { }
 }

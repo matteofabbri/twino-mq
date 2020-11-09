@@ -1,8 +1,7 @@
-using System;
 using System.Threading.Tasks;
 using QueryCommandSample.DataAccess;
 using QueryCommandSample.Models.Commands;
-using Twino.Client.TMQ;
+using Twino.MQ.Client;
 using Twino.Protocols.TMQ;
 
 namespace QueryCommandSample.DatabaseWriter
