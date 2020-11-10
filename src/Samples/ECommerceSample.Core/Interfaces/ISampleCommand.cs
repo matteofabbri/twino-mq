@@ -1,6 +1,6 @@
 using System;
 
-namespace QueryCommandSample.Core.Interfaces
+namespace ECommerceSample.Core.Interfaces
 {
 	public interface ISampleCommand
 	{

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.10" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.10" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ECommerceSample.DataAccess\ECommerceSample.DataAccess.csproj" />
+      <ProjectReference Include="..\ProductService.Domain\ProductService.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

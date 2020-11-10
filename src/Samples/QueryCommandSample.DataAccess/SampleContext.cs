@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using QueryCommandSample.Domain;
+using ECommerceSample.Domain;
 
 namespace QueryCommandSample.DataAccess
 {

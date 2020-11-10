@@ -1,4 +1,4 @@
-﻿using QueryCommandSample.Domain;
+﻿using ECommerceSample.Domain;
 
 namespace QueryCommandSample.BusinessManager
 {

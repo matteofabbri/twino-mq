@@ -5,7 +5,7 @@ using Twino.MQ.Client;
 using Twino.MQ.Client.Annotations;
 using Twino.Protocols.TMQ;
 
-namespace QueryCommandSample.Core
+namespace ECommerceSample.Core
 {
 	[AutoAck]
 	[AutoNack(NackReason.ExceptionMessage)]

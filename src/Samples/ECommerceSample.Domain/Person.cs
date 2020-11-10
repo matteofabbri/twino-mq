@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace QueryCommandSample.Domain
+namespace ECommerceSample.Domain
 {
 	public class Person
 	{

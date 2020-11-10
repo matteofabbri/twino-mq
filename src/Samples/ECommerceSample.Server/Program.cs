@@ -1,7 +1,7 @@
 ﻿using System;
 using Twino.MQ;
 
-namespace QueryCommandSample.Server
+namespace ECommerceSample.Server
 {
 	internal class Program
 	{

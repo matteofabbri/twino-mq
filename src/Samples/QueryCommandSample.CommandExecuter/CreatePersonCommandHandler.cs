@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 using QueryCommandSample.BusinessManager;
-using QueryCommandSample.Domain;
+using ECommerceSample.Domain;
 using QueryCommandSample.Models.Commands;
 using Twino.MQ.Client;
 using Twino.Protocols.TMQ;

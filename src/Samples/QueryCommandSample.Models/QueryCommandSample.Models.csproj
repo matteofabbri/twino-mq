@@ -7,7 +7,7 @@
     <ItemGroup>
       <ProjectReference Include="..\..\Twino.Client.TMQ\Twino.Client.TMQ.csproj" />
       <ProjectReference Include="..\..\Twino.MQ.Client\Twino.MQ.Client.csproj" />
-      <ProjectReference Include="..\QueryCommandSample.Domain\QueryCommandSample.Domain.csproj" />
+      <ProjectReference Include="..\ECommerceSample.Domain\ECommerceSample.Domain.csproj" />
     </ItemGroup>
 
     <ItemGroup>

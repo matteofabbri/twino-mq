@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
-using QueryCommandSample.Core.Interfaces;
+using ECommerceSample.Core.Interfaces;
 using Twino.MQ.Client;
 using Twino.Protocols.TMQ;
 
-namespace QueryCommandSample.Core
+namespace ECommerceSample.Core
 {
 	internal abstract class SampleQueryExecuter<TQuery, TResult> : ITwinoRequestHandler<TQuery, TResult> where TQuery : ISampleQuery
 	{
