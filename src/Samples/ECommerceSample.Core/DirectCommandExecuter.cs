@@ -9,7 +9,7 @@ namespace ECommerceSample.Core
 {
 	[AutoAck]
 	[AutoNack(NackReason.ExceptionMessage)]
-	internal abstract class SampleCommandExecuter<TCommand> : IDirectConsumer<TCommand> where TCommand : ICommand
+	internal abstract class DirectCommandExecuter<TCommand> : IDirectConsumer<TCommand> where TCommand : ICommand
 	{
 		public Task Consume(TwinoMessage message, TCommand model, TmqClient client)
 		{

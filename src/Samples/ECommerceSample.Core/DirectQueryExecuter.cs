@@ -6,7 +6,7 @@ using Twino.Protocols.TMQ;
 
 namespace ECommerceSample.Core
 {
-	internal abstract class SampleQueryExecuter<TQuery, TResult> : ITwinoRequestHandler<TQuery, TResult> where TQuery : ISampleQuery
+	internal abstract class DirectQueryExecuter<TQuery, TResult> : ITwinoRequestHandler<TQuery, TResult> where TQuery : ISampleQuery
 	{
 		public Task<TResult> Handle(TQuery request, TwinoMessage rawMessage, TmqClient client)
 		{

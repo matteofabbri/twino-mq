@@ -5,11 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Twino.MQ.Client\Twino.MQ.Client.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Cqrs" />
+      <Folder Include="Downstream" />
     </ItemGroup>
 
 </Project>

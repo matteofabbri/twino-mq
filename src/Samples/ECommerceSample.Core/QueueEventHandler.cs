@@ -8,7 +8,7 @@ namespace ECommerceSample.Core
 {
 	[AutoAck]
 	[AutoNack(NackReason.ExceptionMessage)]
-	public abstract class SampleEventHandler<T> : IQueueConsumer<T>
+	public abstract class QueueEventHandler<T> : IQueueConsumer<T>
 	{
 		public Task Consume(TwinoMessage message, T model, TmqClient client)
 		{
